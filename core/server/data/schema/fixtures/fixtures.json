@@ -433,12 +433,12 @@
                     "object_type": "label"
                 },
                 {
-                    "name": "Edit labels",
+                    "name": "Alterar grupos",
                     "action_type": "edit",
                     "object_type": "label"
                 },
                 {
-                    "name": "Add labels",
+                    "name": "Adic. grupos",
                     "action_type": "add",
                     "object_type": "label"
                 },

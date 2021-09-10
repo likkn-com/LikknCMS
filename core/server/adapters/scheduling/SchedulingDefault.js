@@ -282,7 +282,7 @@ SchedulingDefault.prototype._pingUrl = function (object) {
         }
     };
 
-    // CASE: If we detect to publish a post in the past (case blog is down), we add a force flag
+    // CASE: If we detect to Criar uma publicação in the past (case blog is down), we add a force flag
     if (moment(time).isBefore(moment())) {
         if (httpMethod === 'GET') {
             // @TODO: rename to searchParams when updating to Got v10

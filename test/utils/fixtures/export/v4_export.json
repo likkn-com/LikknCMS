@@ -1837,7 +1837,7 @@
           },
           {
             "id": "605ac141a2d5a6aa9e101eb1",
-            "name": "Edit labels",
+            "name": "Alterar grupos",
             "object_type": "label",
             "action_type": "edit",
             "object_id": null,
@@ -1846,7 +1846,7 @@
           },
           {
             "id": "605ac141a2d5a6aa9e101eb2",
-            "name": "Add labels",
+            "name": "Adic. grupos",
             "object_type": "label",
             "action_type": "add",
             "object_id": null,

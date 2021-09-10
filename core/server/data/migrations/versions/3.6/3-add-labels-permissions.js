@@ -29,7 +29,7 @@ module.exports = combineTransactionalMigrations(
         'Admin Integration'
     ]),
     addPermissionWithRoles({
-        name: 'Add labels',
+        name: 'Adic. grupos',
         action: 'add',
         object: 'label'
     }, [

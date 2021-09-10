@@ -343,7 +343,7 @@
             },
             "job": {
                 "notFound": "Job not found.",
-                "publishInThePast": "Use the force flag to publish a post in the past."
+                "publishInThePast": "Use the force flag to Criar uma publicação in the past."
             },
             "redirects": {
                 "missingFile": "Please select a JSON file.",
