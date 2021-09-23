@@ -1078,9 +1078,6 @@
             "Member_updated": "Member updated",
             "Member_deleted": "Member deleted"
         },
-        "Settings": {
-            "TEST": "TEST"
-        },
         "Login": {
             "Sign_in_to": "Sign in to",
             "Email_address": "Email address",
@@ -1193,6 +1190,41 @@
             "No_results_found": "No results found"
         },
         "Dashboard": {
+            "30_DAYS":"30 DAYS",
+            "$":"$",
+            "TOTAL_MEMBERS":"TOTAL MEMBERS",
+            "PAID_MEMBERS":"PAID MEMBERS",
+            "EMAIL_OPEN_RATE":"EMAIL OPEN RATE",
+            "Customize_your_site_design":"Customize your site design",
+            "Stand_out_from_the_crowd._Ghost_lets_you_customize_everything_so_you_can_create_a_publication_that_doesn’t_just_look_the_same_as_what_everyone_else_has.":"Stand out from the crowd. Ghost lets you customize everything so you can create a publication that doesn’t just look the same as what everyone else has.",
+            "Brand":"Brand",
+            "Theme":"Theme",
+            "ACTIVITY_FEED":"ACTIVITY FEED",
+            "No_member_activity_available.":"No member activity available.",
+            "Looking_for_help_with_Ghost_features?":"Looking for help with Ghost features?",
+            "Our_product_knowledgebase_is_packed_full_of_guides,_tutorials,_answers_to_frequently_asked_questions,_tips_for_dealing_with_common_errors,_and_much_more.":"Our product knowledgebase is packed full of guides, tutorials, answers to frequently asked questions, tips for dealing with common errors, and much more.",
+            "Visit_the_help_center":"Visit the help center",
+            "WHAT'S_NEW?":"WHAT'S NEW?",
+            "Free_newsletter_themes":"Free newsletter themes",
+            "Invite-only_communities":"Invite-only communities",
+            "Segmented_email_newsletters":"Segmented email newsletters",
+            "See_all_updates":"See all updates",
+            "6_types_of_newsletters_you_can_start_today":"6 types of newsletters you can start today",
+            "Choosing_one_of_these_6_newsletter_types_for_your_publication_will_help_you_create_better_content_at_a_faster_pace_with_less_work.":"Choosing one of these 6 newsletter types for your publication will help you create better content at a faster pace with less work.",
+            "Get_some_inspiration":"Get some inspiration",
+            "5_MIN_READ":"5 MIN READ",
+            "We're_hiring!_Join_the_team_that_makes_Ghost.":"We're hiring! Join the team that makes Ghost.",
+            "The_creator_economy_is_growing_faster_than_ever,_and_so_are_we!Join_a_team_that's_determined_to_make_decentralised,_open_technology_the_heart_and_soul_of_new_media":"The creator economy is growing faster than ever, and so are we! 📈 Join a team that's determined to make decentralised, open technology the heart and soul of new media 🌺",
+            "See_open_roles":"See open roles",
+            "How_to_grow_your_audience,_starting_from_0":"How to grow your audience, starting from 0",
+            "Starting_from_zero_is_hard._Thankfully,_successful_creators_have_given_us_clues_on_how_to_grow_an_audience_by_using_something_called_a_content_funnel.":"Starting from zero is hard. Thankfully, successful creators have given us clues on how to grow an audience by using something called a content funnel.",
+            "Here's_how_it_works":"Here's how it works",
+            "Join_the_Ghost_creator_community.":"Join the Ghost creator community.",
+            "Meet_other_people_building_both_free_&_paid_publications_with_Ghost._Talk_strategy,_get_advice,_or_just_hang_out.":"Meet other people building both free & paid publications with Ghost. Talk strategy, get advice, or just hang out.",
+            "Share_the_journey":"Share the journey",
+            "community.ghost.org":"community.ghost.org"
+        },
+        "Settings": {
             "TEST": "TEST"
         }
     }
