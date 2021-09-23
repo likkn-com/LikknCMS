@@ -687,5 +687,43 @@
                 }
             }
         }
+    },
+    "Manual": {
+        "Posts": {
+            "TEST": "TEST"
+        },
+        "Pages": {
+            "TEST": "TEST"
+        },
+        "Tags": {
+            "TEST": "TEST"
+        },
+        "Members": {
+            "TEST": "TEST"
+        },
+        "Integrations": {
+            "TEST": "TEST"
+        },
+        "Settings": {
+            "TEST": "TEST"
+        },
+        "Login": {
+            "TEST": "TEST"
+        },
+        "ProfilePitcure": {
+            "TEST": "TEST"
+        },
+        "Staff": {
+            "TEST": "TEST"
+        },
+        "ViewSite": {
+            "TEST": "TEST"
+        },
+        "Search": {
+            "TEST": "TEST"
+        },
+        "Dashboard": {
+            "TEST": "TEST"
+        }
     }
 }
