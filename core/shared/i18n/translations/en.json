@@ -818,7 +818,14 @@
             "TEST": "TEST"
         },
         "Login": {
-            "TEST": "TEST"
+            "Sign_in_to":"Sign in to",
+            "Email_address":"Email address",
+            "jamie@exemple.com":"jamie@exemple.com",
+            "Password":"Password",
+            "Forgot?":"Forgot?",
+            "We_need_your_email_address_to_reset_your_password!":"We need your email address to reset your password! ",
+            "Failed_to_send_email.":"Failed to send email.",
+            "Sign_in":"Sign in"
         },
         "ProfilePitcure": {
             "TEST": "TEST"
