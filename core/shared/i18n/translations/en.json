@@ -1144,13 +1144,49 @@
             "Sign_out": "Sign out"
         },
         "Staff": {
-            "TEST": "TEST"
-        },
-        "ViewSite": {
-            "TEST": "TEST"
+            "Staff_users": "Staff users",
+            "ACTIVE_USERS": "ACTIVE USERS",
+            "Invite_people": "Invite people",
+            "Invite_a_new_staff_user": "Invite a new staff user",
+            "Send_an_invitation_for_a_new_person_to_create_a_staff_account_on_your_site,_and_select_a_role_that_matches_what_you’d_like_them_to_be_able_to_do.": "Send an invitation for a new person to create a staff account on your site, and select a role that matches what you’d like them to be able to do.",
+            "Email_address": "Email address",
+            "youremail@exemple.com": "youremail@exemple.com",
+            "Close": "Close",
+            "Contributor": "Contributor",
+            "Author": "Author",
+            "Editor": "Editor",
+            "Administrator": "Administrator",
+            "Can_create_and_edit_their_own_posts,_but_cannot_publish._An_Editor_needs_to_approve_and_publish_for_them": "Can create and edit their own posts, but cannot publish. An Editor needs to approve and publish for them",
+            "A_trusted_user_who_can_create,_edit_and_publish_their_own_posts,_but_can’t_modify_others.": "A trusted user who can create, edit and publish their own posts, but can’t modify others.",
+            "Can_invite_and_manage_other_Authors_and_Contributors,_as_well_as_edit_and_publish_any_posts_on_the_site.": "Can invite and manage other Authors and Contributors, as well as edit and publish any posts on the site.",
+            "Trusted_staff_user_who_should_be_able_to_manage_all_content_and_users,_as_well_as_site_settings_and_options.": "Trusted staff user who should be able to manage all content and users, as well as site settings and options.",
+            "Settings": "Settings",
+            "Users": "Users",
+            "Posts": "Posts",
+            "Tags": "Tags",
+            "Database": "Database",
+            "Email": "Email",
+            "View_and_edit_own_profile": "View and edit own profile",
+            "Create_and_edit_own_draft_posts": "Create and edit own draft posts",
+            "Browse_users": "Browse users",
+            "View,_edit_and_publish_own_posts,_generate_slugs": "View, edit and publish own posts, generate slugs",
+            "Add_tags": "Add tags",
+            "Browse_users,_manage_authors_and_contributors_(invite,_revoke,_delete)": "Browse users, manage authors and contributors (invite, revoke, delete)",
+            "Create,_publish,_edit_and_delete_all_posts,_generate_slugs": "Create, publish, edit and delete all posts, generate slugs",
+            "Edit,_add_and_delete_tags": "Edit, add and delete tags",
+            "Access_all_except_Stripe_settings": "Access all except Stripe settings",
+            "Manage_all_users_(invite,_revoke,_delete)": "Manage all users (invite, revoke, delete)",
+            "Import,_export_and_delete_all_content": "Import, export and delete all content",
+            "Send_newsletters_and_test_emails": "Send newsletters and test emails",
+            "Send_invitation_now": "Send invitation now",
+            "Reset_all_passwords": "Reset all passwords",
+            "You're_about_to_end_all_active_staff_user_sessions_and_trigger_a_password_reset_for_everyone_(including_yourself)._Are_you_sure?": "You're about to end all active staff user sessions and trigger a password reset for everyone (including yourself). Are you sure?",
+            "Yes,_end_sessions_and_reset_passwords_for_all_users.": "Yes, end sessions and reset passwords for all users.",
+            "Upon_submission,_you_will_be_logged_out._Please_check_your_email_to_reset_your_password.": "Upon submission, you will be logged out. Please check your email to reset your password.",
+            "Reset_Passwords": "Reset Passwords",
+            "Cancel": "Cancel"
         },
         "Search": {
-            "TEST": "TEST"
         },
         "Dashboard": {
             "TEST": "TEST"
