@@ -1187,6 +1187,10 @@
             "Cancel": "Cancel"
         },
         "Search": {
+            "Search_site...": "Search site...",
+            "Open_with_Ctrl/⌘_+_K": "Open with Ctrl/⌘ + K",
+            "Loading": "Loading",
+            "No_results_found": "No results found"
         },
         "Dashboard": {
             "TEST": "TEST"
