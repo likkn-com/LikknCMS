@@ -1,35 +1,35 @@
 {
     "common": {
         "mail": {
-            "title": "Ghost at {domain}"
+            "title": "Ghost em {domain}"
         },
-        "seeLinkForInstructions": "See {link} for instructions.",
+        "seeLinkForInstructions": "Consulte {link} para obter instruções.",
         "time": {
-            "seconds": "seconds"
+            "seconds": "segundos"
         },
         "api": {
             "authentication": {
-                "sampleBlogDescription": "Thoughts, stories and ideas.",
+                "sampleBlogDescription": "Pensamentos, histórias e ideias.",
                 "mail": {
-                    "resetPassword": "Reset Password",
-                    "resetPasswordRequired": "Reset Password",
-                    "checkEmailForInstructions": "Check your email for further instructions.",
-                    "passwordChanged": "Password changed successfully.",
-                    "invitationAccepted": "Invitation accepted.",
-                    "yourNewGhostBlog": "Your New Ghost Site"
+                    "resetPassword": "Redefinir senha",
+                    "resetPasswordRequired": "Redefinir senha",
+                    "checkEmailForInstructions": "Verifique seu e-mail para obter mais instruções.",
+                    "passwordChanged": "Senha alterada com sucesso.",
+                    "invitationAccepted": "Convite aceito.",
+                    "yourNewGhostBlog": "Seu novo site Site"
                 }
             },
             "mail": {
-                "testGhostEmail": "Test Ghost Email"
+                "testGhostEmail": "Teste Ghost Email"
             },
             "users": {
                 "mail": {
-                    "invitedByName": "{invitedByName} has invited you to join {blogName}"
+                    "invitedByName": "{invitedByName} convidou você para participar de {blogName}"
                 }
             },
             "actions": {
                 "images": {
-                    "upload": "upload image"
+                    "upload": "Enviar Imagem"
                 }
             }
         }
@@ -37,508 +37,508 @@
     "errors": {
         "middleware": {
             "api": {
-                "versionMismatch": "Client request for {clientVersion} does not match server version {serverVersion}."
+                "versionMismatch": "A solicitação do cliente para {clientVersion} não corresponde à versão do servidor {serverVersion}."
             },
             "auth": {
-                "clientCredentialsNotProvided": "Client credentials were not provided",
-                "clientCredentialsNotValid": "Client credentials were not valid",
-                "forInformationRead": "For information on how to fix this, please read {url}.",
-                "unknownOrigin": "Could not determine origin of request. Please ensure an Origin or Referrer header is present.",
-                "mismatchedOrigin": "Request made from incorrect origin. Expected '{expected}' received '{actual}'.",
-                "missingUserIDForSession": "Cannot create session without user id.",
-                "accessDenied": "Access denied.",
-                "pleaseSignIn": "Please Sign In",
-                "authorizationFailed": "Authorization failed",
-                "missingContentMemberOrIntegration": "Unable to determine the authenticated member or integration. Check the supplied Content API Key and ensure cookies are being passed through if member auth is failing.",
-                "missingAdminUserOrIntegration": "Unable to determine the authenticated user or integration. Check that cookies are being passed through if using session authentication.",
-                "adminApiKeyMissing": "Admin API Token missing kid header claim.",
-                "unknownAdminApiKey": "Unknown Admin API Key",
-                "unknownContentApiKey": "Unknown Content API Key",
-                "adminApiKidMissing": "Admin API kid missing.",
-                "invalidApiKeyType": "Invalid API Key type",
-                "invalidRequest": "Invalid Request",
-                "invalidToken": "Invalid token",
-                "invalidTokenWithMessage": "Invalid token: {message}",
-                "incorrectAuthHeaderFormat": "Authorization header format is \"Authorization: Ghost [token]\""
+                "clientCredentialsNotProvided": "As credenciais do cliente não foram fornecidas",
+                "clientCredentialsNotValid": "As credenciais do cliente não eram válidas",
+                "forInformationRead": "Para obter informações sobre como corrigir isso, leia {url}.",
+                "unknownOrigin": "Não foi possível determinar a origem da solicitação. Certifique-se de que um cabeçalho de origem ou referenciador esteja presente.",
+                "mismatchedOrigin": "Solicitação feita de origem incorreta. Esperado '{expected}' recebido '{actual}'.",
+                "missingUserIDForSession": "Não é possível criar sessão sem ID de usuário.",
+                "accessDenied": "Acesso negado.",
+                "pleaseSignIn": "Por favor, inscreva-se",
+                "authorizationFailed": "Falha na autorização",
+                "missingContentMemberOrIntegration": "Incapaz de determinar o membro autenticado ou integração. Verifique a chave de API de conteúdo fornecida e certifique-se de que os cookies estejam sendo transmitidos se a autenticação do membro estiver falhando.",
+                "missingAdminUserOrIntegration": "Incapaz de determinar o usuário autenticado ou integração. Verifique se os cookies estão sendo transmitidos se estiver usando a autenticação de sessão.",
+                "adminApiKeyMissing": "Declaração de cabeçalho infantil ausente no token da API Admin.",
+                "unknownAdminApiKey": "Chave de API de administrador desconhecida",
+                "unknownContentApiKey": "Chave de API de conteúdo desconhecida",
+                "adminApiKidMissing": "API de administrador infantil ausente.",
+                "invalidApiKeyType": "Tipo de chave API inválido",
+                "invalidRequest": "pedido inválido",
+                "invalidToken": "Token inválido",
+                "invalidTokenWithMessage": "Token inválido: {message}",
+                "incorrectAuthHeaderFormat": "O formato do cabeçalho de autorização é \"Autorização: Ghost [token]\""
             },
             "privateblogging": {
-                "wrongPassword": "Wrong password"
+                "wrongPassword": "Senha incorreta"
             },
             "spamprevention": {
-                "tooManyAttempts": "Too many attempts.",
-                "noUsername": "No username.",
-                "noPassword": "No password entered",
+                "tooManyAttempts": "Muitas tentativas.",
+                "noUsername": "Sem nome de usuário.",
+                "noPassword": "Nenhuma senha digitada",
                 "tooManySigninAttempts": {
-                    "error": "Only {rateSigninAttempts} tries per IP address every {rateSigninPeriod} seconds.",
-                    "context": "Too many login attempts."
+                    "error": "Apenas {rateSigninAttempts} tentativas por endereço IP a cada {rateSigninPeriod} segundos.",
+                    "context": "Muitas tentativas de login."
                 },
-                "tryAgainLater": " Please try again later",
-                "waitOneHour": " Please wait 1 hour.",
-                "noEmail": "No email.",
+                "tryAgainLater": " Por favor, tente novamente mais tarde",
+                "waitOneHour": " Aguarde 1 hora.",
+                "noEmail": "Sem email.",
                 "forgottenPasswordEmail": {
-                    "error": "Only {rfa} forgotten password attempts per email every {rfp} seconds.",
-                    "context": "Forgotten password reset attempt failed"
+                    "error": "Apenas {rfa} tentativas de senha esquecida por e-mail a cada {rfp} segundos.",
+                    "context": "A tentativa de redefinição de senha esquecida falhou"
                 },
                 "forgottenPasswordIp": {
-                    "error": "Only {rfa} tries per IP address every {rfp} seconds.",
-                    "context": "Forgotten password reset attempt failed"
+                    "error": "Apenas {rfa} tentativas por endereço IP a cada {rfp} segundos.",
+                    "context": "A tentativa de redefinição de senha esquecida falhou"
                 }
             },
             "themehandler": {
-                "missingTheme": "The currently active theme \"{theme}\" is missing.",
-                "invalidTheme": "The currently active theme \"{theme}\" is invalid.",
-                "themeHasErrors": "The currently active theme \"{theme}\" has errors, but will still work.",
-                "activateFailed": "Unable to activate the theme \"{theme}\"."
+                "missingTheme": "O tema atualmente ativo \"{theme}\" está desaparecido.",
+                "invalidTheme": "O tema atualmente ativo \"{theme}\" é inválido.",
+                "themeHasErrors": "O tema atualmente ativo \"{theme}\" tem erros, mas ainda funcionará",
+                "activateFailed": "Não foi possível ativar o tema \"{theme}\"."
             },
             "redirects": {
-                "register": "Could not register custom redirects."
+                "register": "Não foi possível registrar redirecionamentos personalizados."
             }
         },
         "utils": {
             "parsepackagejson": {
-                "couldNotReadPackage": "Could not read package.json file",
-                "nameOrVersionMissing": "\"name\" or \"version\" is missing from theme package.json file.",
-                "willBeRequired": "This will be required in future. Please see {url}",
-                "themeFileIsMalformed": "Theme package.json file is malformed"
+                "couldNotReadPackage": "Não foi possível ler o arquivo package.json",
+                "nameOrVersionMissing": "\"name\" ou \"version\" está faltando no arquivo package.json do tema.",
+                "willBeRequired": "Isso será necessário no futuro. Por favor, veja {url}",
+                "themeFileIsMalformed": "O arquivo de tema package.json está malformado"
             },
             "blogIcon": {
-                "error": "Could not fetch icon dimensions."
+                "error": "Não foi possível buscar as dimensões do ícone."
             },
             "images": {
-                "invalidDimensions": "Could not fetch image dimensions."
+                "invalidDimensions": "Não foi possível buscar as dimensões da imagem."
             },
-            "redirectsWrongFormat": "Incorrect redirects file format."
+            "redirectsWrongFormat": "Formato de arquivo de redirecionamento incorreto."
         },
         "config": {
             "couldNotLocateConfigFile": {
-                "error": "Could not locate a configuration file.",
-                "help": "Please check your deployment for config.js or config.example.js."
+                "error": "Não foi possível localizar um arquivo de configuração",
+                "help": "Verifique sua implantação para config.js ou config.example.js."
             },
             "couldNotOpenForReading": {
-                "error": "Could not open {file} for read.",
-                "help": "Please check your deployment for config.js or config.example.js."
+                "error": "Não foi possível abrir {file} para leitura.",
+                "help": "Verifique sua implantação para config.js ou config.example.js."
             },
             "couldNotOpenForWriting": {
-                "error": "Could not open {file} for write.",
-                "help": "Please check your deployment for config.js or config.example.js."
+                "error": "Não foi possível abrir {file} para gravação.",
+                "help": "Verifique sua implantação para config.js ou config.example.js."
             },
             "invalidUrlInConfig": {
-                "error": "invalid site url",
-                "description": "Your site url in config.js is invalid.",
-                "help": "Please make sure this is a valid url before restarting"
+                "error": "url de site inválido",
+                "description": "O url do seu site em config.js é inválido.",
+                "help": "Certifique-se de que este é um url válido antes de reiniciar"
             },
             "urlCannotContainGhostSubdir": {
-                "error": "ghost subdirectory not allowed",
-                "description": "Your site url in config.js cannot contain a subdirectory called ghost.",
-                "help": "Please rename the subdirectory before restarting"
+                "error": "ghost subdiretório não permitido",
+                "description": "O url do seu site em config.js não pode conter um subdiretório chamado ghost.",
+                "help": "Renomeie o subdiretório antes de reiniciar"
             },
             "urlCannotContainPrivateSubdir": {
-                "error": "private subdirectory not allowed",
-                "description": "Your site url in config.js cannot contain a subdirectory called private.",
-                "help": "Please rename the subdirectory before restarting"
+                "error": "subdiretório privado não permitido",
+                "description": "O url do seu site em config.js não pode conter um subdiretório denominado privado.",
+                "help": "Renomeie o subdiretório antes de reiniciar"
             },
             "dbConfigInvalid": {
-                "error": "invalid database configuration",
-                "description": "Your database configuration in config.js is invalid.",
-                "help": "Please make sure this is a valid Bookshelf database configuration"
+                "error": "configuração de banco de dados inválida",
+                "description": "A configuração do seu banco de dados em config.js é inválida.",
+                "help": "Certifique-se de que esta é uma configuração de banco de dados Bookshelf válida"
             },
             "deprecatedProperty": {
-                "error": "The configuration property [{property}] has been deprecated.",
-                "explanation": "This will be removed in a future version, please update your config.js file.",
-                "help": "Please check {url} for the most up-to-date example."
+                "error": "A propriedade de configuração [{property}] foi descontinuada.",
+                "explanation": "Isso será removido em uma versão futura, atualize seu arquivo config.js.",
+                "help": "Verifique {url} para obter o exemplo mais atualizado."
             },
             "invalidServerValues": {
-                "error": "invalid server configuration",
-                "description": "Your server values (socket, or host and port) in config.js are invalid.",
-                "help": "Please provide them before restarting."
+                "error": "configuração de servidor inválida",
+                "description": "Os valores do seu servidor (socket, or host and port) em config.js são inválidos.",
+                "help": "Forneça-os antes de reiniciar."
             }
         },
         "general": {
-            "maintenance": "Site is currently undergoing maintenance, please wait a moment then retry.",
-            "maintenanceUrlService": "Site is starting up, please wait a moment then retry.",
-            "requiredOnFuture": "This will be required in future. Please see {link}",
-            "internalError": "Something went wrong.",
-            "jsonParse": "Could not parse JSON: {context}."
+            "maintenance": "O site está em manutenção, aguarde um momento e tente novamente.",
+            "maintenanceUrlService": "O site está inicializando, aguarde um momento e tente novamente.",
+            "requiredOnFuture": "Isso será necessário no futuro. Por favor, veja {link}",
+            "internalError": "Algo deu errado.",
+            "jsonParse": "Não foi possível analisar JSON: {context}."
         },
         "mail": {
             "incompleteMessageData": {
-                "error": "Incomplete message data."
+                "error": "Dados de mensagem incompletos."
             },
             "failedSendingEmail": {
-                "error": "Failed to send email."
+                "error": "Falha ao enviar e-mail."
             },
             "noMailServerAtAddress": {
-                "error": " No mail server found at {domain}."
+                "error": " Nenhum servidor de e-mail encontrado em {domain}."
             },
-            "reason": " Reason: {reason}."
+            "reason": " Razão: {razão}."
         },
         "models": {
             "general": {
-                "sql": "Could not understand request."
+                "sql": "Não foi possível entender o pedido."
             },
             "invite": {
-                "notEnoughPermission": "You do not have permission to perform this action"
+                "notEnoughPermission": "Você não tem permissão para realizar esta ação"
             },
             "post": {
-                "postNotFound": "Post not found.",
-                "untitled": "(Untitled)",
-                "valueCannotBeBlank": "Value in {key} cannot be blank.",
-                "isAlreadyPublished": "Your post is already published, please reload your page.",
-                "expectedPublishedAtInFuture": "Date must be at least {cannotScheduleAPostBeforeInMinutes} minutes in the future.",
-                "noUserFound": "No user found",
-                "notEnoughPermission": "You do not have permission to perform this action",
+                "postNotFound": "Postagem não encontrada.",
+                "untitled": "(Sem título)",
+                "valueCannotBeBlank": "O valor em {chave} não pode ficar em branco.",
+                "isAlreadyPublished": "Sua postagem já foi publicada, por favor recarregue sua página.",
+                "expectedPublishedAtInFuture": "A data deve ser pelo menos {can'tScheduleAPostBeforeInMinutes} minutos no futuro.",
+                "noUserFound": "Nenhum usuário encontrado",
+                "notEnoughPermission": "Você não tem permissão para realizar esta ação",
                 "tagUpdates": {
-                    "error": "Unable to save tags.",
-                    "help": "Your post was saved, but your tags were not updated."
+                    "error": "Incapaz de salvar tags.",
+                    "help": "Sua postagem foi salva, mas suas tags não foram atualizadas."
                 }
             },
             "role": {
-                "roleNotFound": "Role not found",
-                "notEnoughPermission": "You do not have permission to perform this action"
+                "roleNotFound": "Função não encontrada",
+                "notEnoughPermission": "Você não tem permissão para realizar esta ação"
             },
             "settings": {
-                "valueCannotBeBlank": "Value in [settings.key] cannot be blank.",
-                "unableToFindSetting": "Unable to find setting to update: {key}",
-                "unableToFindDefaultSetting": "Unable to find default setting: {key}"
+                "valueCannotBeBlank": "O valor em [settings.key] não pode ficar em branco.",
+                "unableToFindSetting": "Não foi possível encontrar a configuração para atualizar: {key}",
+                "unableToFindDefaultSetting": "Não foi possível encontrar a configuração padrão: {key}"
             },
             "user": {
-                "missingContext": "missing context",
-                "onlyOneRolePerUserSupported": "Only one role per user is supported at the moment.",
-                "methodDoesNotSupportOwnerRole": "This method does not support assigning the owner role",
-                "passwordDoesNotComplyLength": "Your password must be at least {minLength} characters long.",
-                "passwordDoesNotComplySecurity": "Sorry, you cannot use an insecure password.",
-                "notEnoughPermission": "You do not have permission to perform this action",
-                "noUserWithEnteredEmailAddr": "There is no user with that email address.",
-                "userIsInactive": "The user with that email address is inactive.",
+                "missingContext": "falta de contexto",
+                "onlyOneRolePerUserSupported": "Apenas uma função por usuário é suportada no momento.",
+                "methodDoesNotSupportOwnerRole": "Este método não suporta a atribuição da função de proprietário",
+                "passwordDoesNotComplyLength": "Sua senha deve ter pelo menos {minLength} caracteres.",
+                "passwordDoesNotComplySecurity": "Desculpe, você não pode usar uma senha insegura.",
+                "notEnoughPermission": "Você não tem permissão para realizar esta ação",
+                "noUserWithEnteredEmailAddr": "Não há nenhum usuário com esse endereço de e-mail.",
+                "userIsInactive": "O usuário com esse endereço de e-mail está inativo.",
                 "userUpdateError": {
-                    "emailIsAlreadyInUse": "Email is already in use",
-                    "context": "Error thrown from user update during login",
-                    "help": "Visit and save your profile after logging in to check for problems."
+                    "emailIsAlreadyInUse": "o e-mail já está sendo usado",
+                    "context": "Erro gerado pela atualização do usuário durante o login",
+                    "help": "Visite e salve seu perfil após o login para verificar se há problemas."
                 },
-                "incorrectPassword": "Your password is incorrect.",
-                "accountSuspended": "Your account was suspended.",
-                "newPasswordsDoNotMatch": "Your new passwords do not match",
-                "passwordRequiredForOperation": "Password is required for this operation",
-                "expiredToken": "Expired token",
-                "tokenLocked": "Token locked",
-                "invalidToken": "Invalid token",
-                "userNotFound": "User not found",
-                "ownerNotFound": "Owner not found",
-                "onlyOwnerCanTransferOwnerRole": "Only owners are able to transfer the owner role.",
-                "onlyAdmCanBeAssignedOwnerRole": "Only administrators can be assigned the owner role.",
-                "onlyActiveAdmCanBeAssignedOwnerRole": "Only active administrators can be assigned the owner role."
+                "incorrectPassword": "Sua senha está incorreta.",
+                "accountSuspended": "Sua conta foi suspensa.",
+                "newPasswordsDoNotMatch": "Suas novas senhas não coincidem",
+                "passwordRequiredForOperation": "A senha é necessária para esta operação",
+                "expiredToken": "Expirado token",
+                "tokenLocked": "Token trancada",
+                "invalidToken": "Token inválido",
+                "userNotFound": "Usuário não encontrado",
+                "ownerNotFound": "Proprietário não encontrado",
+                "onlyOwnerCanTransferOwnerRole": "Apenas os proprietários podem transferir a função de proprietário.",
+                "onlyAdmCanBeAssignedOwnerRole": "Apenas administradores podem ser atribuídos à função de proprietário.",
+                "onlyActiveAdmCanBeAssignedOwnerRole": "Apenas administradores ativos podem ser atribuídos à função de proprietário."
             },
             "api_key": {
-                "apiKeyNotFound": "API Key not found"
+                "apiKeyNotFound": "Chave API não encontrada"
             },
             "email": {
-                "emailNotFound": "Email not found.",
-                "retryNotAllowed": "Only failed emails can be retried"
+                "emailNotFound": "Email não encontrado.",
+                "retryNotAllowed": "Apenas e-mails com falha podem ser repetidos"
             },
             "member": {
                 "memberAlreadyExists": {
-                    "message": "Member already exists",
-                    "context": "Attempting to {action} member with existing email address."
+                    "message": "Membro já existe",
+                    "context": "Tentando {action} membro com endereço de e-mail existente."
                 }
             },
             "member_stripe_customer": {
                 "customerAlreadyExists": {
-                    "message": "Stripe customer already exists",
-                    "context": "Attempting to add Stripe customer with existing Stripe customer id"
+                    "message": "O cliente Stripe já existe",
+                    "context": "Tentativa de adicionar cliente Stripe com ID de cliente Stripe existente"
                 }
             },
             "stripe_customer_subscription": {
                 "subscriptionAlreadyExists": {
-                    "message": "Stripe customer subscription already exists",
-                    "context": "Attempting to add Stripe customer subscription with existing Stripe customer"
+                    "message": "A assinatura do cliente Stripe já existe",
+                    "context": "Tentativa de adicionar assinatura de cliente Stripe com cliente Stripe existente"
                 }
             },
             "base": {
                 "index": {
-                    "missingContext": "missing context"
+                    "missingContext": "falta de contexto"
                 },
                 "token": {
-                    "noUserFound": "No user found",
-                    "tokenNotFound": "Token not found"
+                    "noUserFound": "Nenhum usuário encontrado",
+                    "tokenNotFound": "Token não encontrado"
                 },
-                "invalidDate": "Date format for `{key}` is invalid."
+                "invalidDate": "O formato de data para  `{key}` é inválido."
             },
             "plugins": {
                 "filter": {
-                    "errorParsing": "Error parsing filter",
-                    "forInformationRead": "For more information on how to use filter, see {url}"
+                    "errorParsing": "Erro ao analisar o filtro",
+                    "forInformationRead": "Para obter mais informações sobre como usar o filtro, consulte {url}"
                 }
             }
         },
         "permissions": {
             "applyStatusRules": {
-                "error": "You do not have permission to retrieve {docName} with that status"
+                "error": "Você não tem permissão para recuperar {docName} com esse status"
             },
-            "noPermissionToAction": "You do not have permission to perform this action"
+            "noPermissionToAction": "Você não tem permissão para realizar esta ação"
         },
         "api": {
             "common": {
-                "notImplemented": "The server does not support the functionality required to fulfill the request."
+                "notImplemented": "O servidor não oferece suporte à funcionalidade necessária para atender à solicitação."
             },
             "authentication": {
-                "setupUnableToRun": "Database missing fixture data. Please reset database and try again.",
-                "setupMustBeCompleted": "Setup must be completed before making this request.",
-                "noEmailProvided": "No email provided.",
-                "noTokenProvided": "No token provided.",
-                "noPasswordProvided": "No password provided.",
-                "noNameProvided": "No name provided.",
-                "invalidEmailReceived": "The server did not receive a valid email",
-                "setupAlreadyCompleted": "Setup has already been completed.",
-                "unableToSendWelcomeEmail": "Unable to send welcome email, your site will continue to function.",
-                "checkEmailConfigInstructions": "Please see {url} for instructions on configuring email.",
-                "notTheBlogOwner": "You are not the site owner."
+                "setupUnableToRun": "Dados de fixação ausentes no banco de dados. Redefina o banco de dados e tente novamente.",
+                "setupMustBeCompleted": "A configuração deve ser concluída antes de fazer essa solicitação.",
+                "noEmailProvided": "Nenhum email fornecido.",
+                "noTokenProvided": "Nenhum token fornecido.",
+                "noPasswordProvided": "Nenhuma senha fornecida.",
+                "noNameProvided": "Nenhum nome fornecido.",
+                "invalidEmailReceived": "O servidor não recebeu um e-mail válido",
+                "setupAlreadyCompleted": "A configuração já foi concluída.",
+                "unableToSendWelcomeEmail": "Incapaz de enviar o e-mail de boas-vindas, seu site continuará funcionando.",
+                "checkEmailConfigInstructions": "Consulte {url} para obter instruções sobre como configurar o e-mail.",
+                "notTheBlogOwner": "Você não é o proprietário do site."
             },
             "passwordReset": {
                 "expired": {
-                    "message": "Cannot reset password.",
-                    "context": "Password reset link expired.",
-                    "help": "Request a new password reset via the login form."
+                    "message": "Não é possível redefinir a senha.",
+                    "context": "O link de redefinição de senha expirou.",
+                    "help": "Solicite uma nova redefinição de senha por meio do formulário de login."
                 },
                 "invalidToken": {
-                    "message": "Cannot reset password.",
-                    "context": "Password reset link has already been used.",
-                    "help": "Request a new password reset via the login form."
+                    "message": "Não é possível redefinir a senha.",
+                    "context": "O link de redefinição de senha já foi usado.",
+                    "help": "Solicite uma nova redefinição de senha por meio do formulário de login."
                 },
                 "corruptedToken": {
-                    "message": "Cannot reset password.",
-                    "context": "Invalid password reset link.",
-                    "help": "Check if password reset link has been fully copied or request new password reset via the login form."
+                    "message": "Não é possível redefinir a senha.",
+                    "context": "Link de redefinição de senha inválido.",
+                    "help": "Verifique se o link de redefinição de senha foi totalmente copiado ou solicite uma nova redefinição de senha por meio do formulário de login."
                 }
             },
             "configuration": {
-                "invalidKey": "Invalid key"
+                "invalidKey": "Chave inválida"
             },
             "db": {
-                "missingFile": "Please select a database file to import.",
-                "invalidFile": "Unsupported file. Please try any of the following formats: {extensions}",
-                "noPermissionToExportData": "You do not have permission to export data (no rights).",
-                "noPermissionToImportData": "You do not have permission to import data (no rights)."
+                "missingFile": "Selecione um arquivo de banco de dados para importar.",
+                "invalidFile": "Arquivo não suportado. Tente qualquer um dos seguintes formatos: {extensions}",
+                "noPermissionToExportData": "Você não tem permissão para exportar dados (sem direitos).",
+                "noPermissionToImportData": "Você não tem permissão para importar dados (sem direitos)."
             },
             "mail": {
-                "noPermissionToSendEmail": "You do not have permission to send mail.",
-                "cannotFindCurrentUser": "Could not find the current user"
+                "noPermissionToSendEmail": "Você não tem permissão para enviar e-mail.",
+                "cannotFindCurrentUser": "Não foi possível encontrar o usuário atual"
             },
             "notifications": {
-                "noPermissionToBrowseNotif": "You do not have permission to browse notifications.",
-                "noPermissionToAddNotif": "You do not have permission to add notifications.",
-                "noPermissionToDestroyNotif": "You do not have permission to destroy notifications.",
-                "noPermissionToDismissNotif": "You do not have permission to dismiss this notification.",
-                "notificationDoesNotExist": "Notification does not exist."
+                "noPermissionToBrowseNotif": "Você não tem permissão para navegar pelas notificações.",
+                "noPermissionToAddNotif": "Você não tem permissão para adicionar notificações.",
+                "noPermissionToDestroyNotif": "Você não tem permissão para destruir notificações.",
+                "noPermissionToDismissNotif": "Você não tem permissão para dispensar esta notificação.",
+                "notificationDoesNotExist": "Notificação não existe."
             },
             "posts": {
-                "postNotFound": "Post not found.",
-                "invalidVisibilityFilter": "Invalid filter in visibility property"
+                "postNotFound": "Postagem não encontrada.",
+                "invalidVisibilityFilter": "Filtro inválido na propriedade de visibilidade"
             },
             "authors": {
-                "notFound": "Author not found."
+                "notFound": "Autor não encontrado."
             },
             "pages": {
-                "pageNotFound": "Page not found.",
-                "invalidVisibilityFilter": "Invalid filter in visibility property"
+                "pageNotFound": "Página não encontrada.",
+                "invalidVisibilityFilter": "Filtro inválido na propriedade de visibilidade"
             },
             "job": {
-                "notFound": "Job not found.",
-                "publishInThePast": "Use the force flag to Criar uma publicação in the past."
+                "notFound": "Trabalho não encontrado.",
+                "publishInThePast": "Use o flag force para Criar uma publicação no passado."
             },
             "redirects": {
-                "missingFile": "Please select a JSON file.",
-                "invalidFile": "Please select a valid JSON file to import.",
-                "yamlParse": "YAML input cannot be a plain string. Check the format of your YAML file."
+                "missingFile": "Selecione um arquivo JSON.",
+                "invalidFile": "Selecione um arquivo JSON válido para importar.",
+                "yamlParse": "A entrada YAML não pode ser uma string simples. Verifique o formato do seu arquivo YAML."
             },
             "resource": {
-                "resourceNotFound": "{resource} not found."
+                "resourceNotFound": "{resource} não encontrado."
             },
             "routes": {
-                "missingFile": "Please select a YAML file.",
-                "invalidFile": "Please select a valid YAML file to import."
+                "missingFile": "Selecione um arquivo YAML.",
+                "invalidFile": "Selecione um arquivo YAML válido para importar."
             },
             "settings": {
-                "problemFindingSetting": "Problem finding setting: {key}",
-                "accessCoreSettingFromExtReq": "Attempted to access core setting from external request",
-                "invalidEmailReceived": "Please send a valid email",
+                "problemFindingSetting": "Configuração de localização de problemas: {key}",
+                "accessCoreSettingFromExtReq": "Tentativa de acessar a configuração principal a partir de um pedido externo",
+                "invalidEmailReceived": "Por favor envie um email válido",
                 "activeThemeSetViaAPI": {
-                    "error": "Attempted to change active_theme via settings API",
-                    "help": "Please activate theme via the themes API endpoints instead"
+                    "error": "Tentativa de alterar o active_theme por meio da API de configurações",
+                    "help": "Em vez disso, ative o tema por meio dos endpoints da API de temas"
                 },
-                "invalidJsonInLabs": "Error: Invalid JSON in settings.labs",
-                "labsColumnCouldNotBeParsed": "The column with key \"labs\" could not be parsed as JSON",
-                "tryUpdatingLabs": "Please try updating a setting on the labs page, or manually editing your DB",
-                "noPermissionToEditSettings": "You do not have permission to edit settings.",
-                "noPermissionToReadSettings": "You do not have permission to read settings."
+                "invalidJsonInLabs": "Erro: JSON inválido em settings.labs",
+                "labsColumnCouldNotBeParsed": "A coluna com a chave \"labs\" não pôde ser analisada como JSON",
+                "tryUpdatingLabs": "Tente atualizar uma configuração na página de laboratórios ou editar manualmente seu banco de dados",
+                "noPermissionToEditSettings": "Você não tem permissão para editar as configurações.",
+                "noPermissionToReadSettings": "Você não tem permissão para ler as configurações."
             },
             "slugs": {
-                "couldNotGenerateSlug": "Could not generate slug.",
-                "unknownSlugType": "Unknown slug type '{type}'."
+                "couldNotGenerateSlug": "Não foi possível gerar o apelido",
+                "unknownSlugType": "Tipo de apelido desconhecido '{type}'."
             },
             "members": {
-                "memberNotFound": "Member not found.",
+                "memberNotFound": "Membro não encontrado.",
                 "stripeNotConnected": {
-                    "message": "Missing Stripe connection.",
-                    "context": "Attempting to import members with Stripe data when there is no Stripe account connected.",
-                    "help": "You need to connect to Stripe to import Stripe customers. "
+                    "message": "Falta a conexão do Stripe.",
+                    "context": "Tentativa de importar membros com dados Stripe quando não há uma conta Stripe conectada.",
+                    "help": "Você precisa se conectar ao Stripe para importar clientes do Stripe. "
                 },
                 "stripeCustomerNotFound": {
-                    "context": "Missing Stripe customer.",
-                    "help": "Make sure you’re connected to the correct Stripe Account."
+                    "context": "Cliente Stripe ausente.",
+                    "help": "Verifique se você está conectado à conta Stripe correta."
                 },
                 "duplicateStripeCustomerIds": {
-                    "message": "Duplicate Stripe ID",
-                    "context": "Attempting to import members with duplicate Stripe customer ids.",
-                    "help": "Remove duplicate Stripe customer IDs from the CSV and re-run the import."
+                    "message": "ID de faixa duplicado",
+                    "context": "Tentativa de importar membros com ids de cliente Stripe duplicados.",
+                    "help": "Remova IDs de cliente duplicados do Stripe do CSV e execute novamente a importação."
                 }
             },
             "products": {
-                "productNotFound": "Product not found."
+                "productNotFound": "Produto não encontrado."
             },
             "tags": {
-                "tagNotFound": "Tag not found."
+                "tagNotFound": "Tag não encontrada."
             },
             "labels": {
-                "labelNotFound": "Label not found.",
-                "labelAlreadyExists": "Label already exists"
+                "labelNotFound": "Etiqueta não encontrada.",
+                "labelAlreadyExists": "Etiqueta já existe"
             },
             "themes": {
-                "noPermissionToBrowseThemes": "You do not have permission to browse themes.",
-                "noPermissionToEditThemes": "You do not have permission to edit themes.",
-                "themeDoesNotExist": "Theme does not exist.",
-                "invalidTheme": "Theme is not compatible or contains errors.",
-                "invalidThemeName": "Please select a valid theme.",
-                "missingFile": "Please select a theme.",
-                "invalidFile": "Please select a valid zip file.",
-                "overrideCasper": "Please rename your zip, it's not allowed to override the default casper theme.",
-                "destroyCasper": "Deleting the default casper theme is not allowed.",
-                "destroyActive": "Deleting the active theme is not allowed.",
-                "repoDoesNotExist": "Supplied GitHub theme does not exist or is inaccessible"
+                "noPermissionToBrowseThemes": "Você não tem permissão para navegar nos temas.",
+                "noPermissionToEditThemes": "Você não tem permissão para editar temas.",
+                "themeDoesNotExist": "O tema não existe.",
+                "invalidTheme": "O tema não é compatível ou contém erros.",
+                "invalidThemeName": "Selecione um tema válido.",
+                "missingFile": "Selecione um tema.",
+                "invalidFile": "Selecione um arquivo zip válido.",
+                "overrideCasper": "Por favor, renomeie seu zip, não é permitido sobrescrever o tema Casper padrão.",
+                "destroyCasper": "Excluir o tema Casper padrão não é permitido",
+                "destroyActive": "Excluir o tema ativo não é permitido.",
+                "repoDoesNotExist": "O tema GitHub fornecido não existe ou está inacessível"
             },
             "images": {
-                "missingFile": "Please select an image.",
-                "invalidFile": "Please select a valid image.",
-                "isNotSquare": "Please select a valid image file with square dimensions."
+                "missingFile": "Selecione uma imagem.",
+                "invalidFile": "Selecione uma imagem válida.",
+                "isNotSquare": "Selecione um arquivo de imagem válido com dimensões quadradas."
             },
             "icons": {
-                "missingFile": "Please select an icon.",
-                "invalidFile": "Icon must be a square .ico or .png file between 60px – 1,000px, under 100kb.",
-                "couldNotGetSize": "Couldn/'t get icon dimensions"
+                "missingFile": "Selecione um ícone.",
+                "invalidFile": "O ícone deve ser um arquivo quadrado .ico ou .png entre 60px – 1,000px, debaixo 100kb.",
+                "couldNotGetSize": "Não foi possível obter as dimensões do ícone"
             },
             "users": {
-                "userNotFound": "User not found.",
-                "cannotChangeOwnRole": "You cannot change your own role.",
-                "cannotChangeStatus": "You cannot change your own status.",
-                "cannotChangeOwnersRole": "Cannot change Owner's role",
-                "noPermissionToEditUser": "You do not have permission to edit this user",
-                "noPermissionToAddUser": "You do not have permission to add this user",
-                "noEmailProvided": "No email provided.",
-                "userAlreadyRegistered": "User is already registered.",
-                "noPermissionToDestroyUser": "You do not have permission to destroy this user.",
-                "noPermissionToChangeUsersPwd": "You do not have permission to change the password for this user"
+                "userNotFound": "Usuário não encontrado.",
+                "cannotChangeOwnRole": "Você não pode mudar sua própria função.",
+                "cannotChangeStatus": "Você não pode mudar seu próprio status.",
+                "cannotChangeOwnersRole": "Não é possível alterar a função do proprietário",
+                "noPermissionToEditUser": "Você não tem permissão para editar este usuário",
+                "noPermissionToAddUser": "Você não tem permissão para adicionar este usuário",
+                "noEmailProvided": "Nenhum email fornecido.",
+                "userAlreadyRegistered": "O usuário já está cadastrado.",
+                "noPermissionToDestroyUser": "Você não tem permissão para destruir este usuário.",
+                "noPermissionToChangeUsersPwd": "Você não tem permissão para alterar a senha deste usuário"
             },
             "utils": {
-                "noPermissionToCall": "You do not have permission to {method} {docName}",
-                "noRootKeyProvided": "No root key ('{docName}') provided.",
-                "invalidStructure": "No valid object structure provided for: {key}",
-                "invalidIdProvided": "Invalid id provided."
+                "noPermissionToCall": "Você não tem permissão para {method} {docName}",
+                "noRootKeyProvided": "Nenhuma chave raiz ('{docName}') fornecida.",
+                "invalidStructure": "Nenhuma estrutura de objeto válida fornecida para: {key}",
+                "invalidIdProvided": "ID inválido fornecido."
             },
             "invites": {
                 "inviteEmailAlreadyExist": {
-                    "message": "Could not create an account, email is already in use.",
-                    "context": "Attempting to create an account with existing email address.",
-                    "help": "Use different email address to register your account."
+                    "message": "Não foi possível criar uma conta, o e-mail já está em uso.",
+                    "context": "Tentando criar uma conta com endereço de e-mail existente.",
+                    "help": "Use um endereço de e-mail diferente para registrar sua conta."
                 },
-                "inviteNotFound": "Invite not found.",
-                "inviteExpired": "Invite is expired.",
-                "emailIsRequired": "E-Mail is required.",
-                "roleIsRequired": "Role is required",
-                "roleNotFound": "Role not found",
+                "inviteNotFound": "Convite não encontrado.",
+                "inviteExpired": "O convite expirou.",
+                "emailIsRequired": "O e-mail é obrigatório.",
+                "roleIsRequired": "O papel é obrigatório",
+                "roleNotFound": "Função não encontrada",
                 "errorSendingEmail": {
-                    "error": "Error sending email: {message}",
-                    "help": "Please check your email settings and resend the invitation."
+                    "error": "Erro ao enviar e-mail: {mensagem}",
+                    "help": "Verifique suas configurações de e-mail e reenvie o convite."
                 },
-                "notAllowedToInviteOwner": "Not allowed to invite an owner user.",
-                "notAllowedToInvite": "Not allowed to invite this role."
+                "notAllowedToInviteOwner": "Não é permitido convidar um usuário proprietário.",
+                "notAllowedToInvite": "Não tem permissão para convidar esta função."
             },
             "webhooks": {
                 "noPermissionToEdit": {
-                    "message": "You do not have permission to {method} this webhook.",
-                    "context": "You may only {method} webhooks that belong to the authenticated integration. Check the supplied Admin API Key."
+                    "message": "Você não tem permissão para {method} este webhook.",
+                    "context": "Você só pode {method} webhooks que pertençam à integração autenticada. Verifique a chave de API Admin fornecida."
                 },
                 "noIntegrationIdProvided": {
-                    "context": "You may only create webhooks with 'integration_id' when using session authentication."
+                    "context": "Você só pode criar webhooks com 'integration_id' ao usar a autenticação de sessão."
                 },
                 "nonExistingIntegrationIdProvided": {
-                    "context": "'integration_id' value does not match any existing integration.",
-                    "help": "Provide the 'integration_id' of an existing integration."
+                    "context": "O valor 'integration_id' não corresponde a nenhuma integração existente.",
+                    "help": "Forneca o 'integration_id' de uma integração existente."
                 },
-                "webhookAlreadyExists": "Target URL has already been used for this event."
+                "webhookAlreadyExists": "O URL de destino já foi usado para este evento."
             },
             "oembed": {
-                "noUrlProvided": "No url provided.",
-                "insufficientMetadata": "URL contains insufficient metadata.",
-                "unknownProvider": "No provider found for supplied URL."
+                "noUrlProvided": "Nenhum url fornecido.",
+                "insufficientMetadata": "O URL contém metadados insuficientes.",
+                "unknownProvider": "Nenhum provedor encontrado para o URL fornecido."
             },
             "userMessages": {
-                "BookshelfRelationsError": "Database error, cannot {action}.",
-                "InternalServerError": "Internal server error, cannot {action}.",
-                "IncorrectUsageError": "Incorrect usage error, cannot {action}.",
-                "NotFoundError": "Resource not found error, cannot {action}.",
-                "BadRequestError": "Request not understood error, cannot {action}.",
-                "UnauthorizedError": "Authorisation error, cannot {action}.",
-                "NoPermissionError": "Permission error, cannot {action}.",
-                "ValidationError": "Validation error, cannot {action}.",
-                "UnsupportedMediaTypeError": "Unsupported media error, cannot {action}.",
-                "TooManyRequestsError": "Too many requests error, cannot {action}.",
-                "MaintenanceError": "Server down for maintenance, cannot {action}.",
-                "MethodNotAllowedError": "Method not allowed, cannot {action}.",
-                "RequestEntityTooLargeError": "Request too large, cannot {action}.",
-                "TokenRevocationError": "Token is not available, cannot {action}.",
-                "VersionMismatchError": "Version mismatch error, cannot {action}.",
-                "DataExportError": "Error exporting content.",
-                "DataImportError": "Duplicated entry, cannot save {action}.",
-                "DatabaseVersionError": "Database version compatibility error, cannot {action}.",
-                "EmailError": "Error sending email!",
-                "ThemeValidationError": "Theme validation error, cannot {action}.",
-                "HostLimitError": "Host Limit error, cannot {action}.",
-                "DisabledFeatureError": "Theme validation error, the {{{helperName}}} helper is not available. Cannot {action}.",
-                "UpdateCollisionError": "Saving failed! Someone else is editing this post."
+                "BookshelfRelationsError": "Erro de banco de dados, não é possível {action}.",
+                "InternalServerError": "Erro interno do servidor, não é possível {action}.",
+                "IncorrectUsageError": "Erro de uso incorreto, não é possível {action}.",
+                "NotFoundError": "Erro de recurso não encontrado, não é possível ",
+                "BadRequestError": "Erro de pedido não compreendido, não é possível {action}.",
+                "UnauthorizedError": "Erro de autorização, não é possível {action}.",
+                "NoPermissionError": "Erro de permissão, não é possível {action}.",
+                "ValidationError": "Erro de validação, não é possível {action}.",
+                "UnsupportedMediaTypeError": "Erro de mídia não compatível, não é possível {action}.",
+                "TooManyRequestsError": "Muitos pedidos de erro, não é possível {action}.",
+                "MaintenanceError": "Servidor desligado para manutenção, não é possível {action}.",
+                "MethodNotAllowedError": "Método não permitido, não é possível {action}.",
+                "RequestEntityTooLargeError": "Pedido muito grande, não é possível {action}.",
+                "TokenRevocationError": "O token não está disponível, não é possível {action}.",
+                "VersionMismatchError": "Erro de incompatibilidade de versão, não é possível {action}.",
+                "DataExportError": "Erro ao exportar o conteúdo.",
+                "DataImportError": "Entrada duplicada, não é possível salvar  {action}.",
+                "DatabaseVersionError": "Erro de compatibilidade de versão do banco de dados, não é possível {action}.",
+                "EmailError": "Erro ao enviar e-mail!",
+                "ThemeValidationError": "Erro de validação do tema, não é possível {action}.",
+                "HostLimitError": "Erro de limite de host, não é possível {action}.",
+                "DisabledFeatureError": "Erro de validação do tema, o helper {{{helperName}}} não está disponível. Não é possível {action}.",
+                "UpdateCollisionError": "Falha ao salvar! Alguém está editando esta postagem."
             }
         },
         "data": {
             "export": {
-                "errorExportingData": "Error exporting data"
+                "errorExportingData": "Erro ao exportar dados"
             },
             "import": {
                 "dataImporter": {
-                    "unableToFindOwner": "Unable to find an owner"
+                    "unableToFindOwner": "Incapaz de encontrar um dono"
                 },
                 "index": {
-                    "duplicateEntryFound": "Duplicate entry found. Multiple values of '{value}' found for {offendingProperty}."
+                    "duplicateEntryFound": "Entrada duplicada encontrada. Vários valores de '{value}' encontrados para {offendingProperty}."
                 },
                 "utils": {
-                    "dataLinkedToUnknownUser": "Attempting to import data linked to unknown user id {userToMap}"
+                    "dataLinkedToUnknownUser": "Tentando importar dados vinculados a ID de usuário desconhecido {userToMap}"
                 }
             },
             "importer": {
                 "index": {
                     "couldNotCleanUpFile": {
-                        "error": "Import could not clean up file ",
-                        "context": "Your site will continue to work as expected"
+                        "error": "A importação não pôde limpar o arquivo ",
+                        "context": "Seu site continuará funcionando conforme o esperado"
                     },
-                    "unsupportedRoonExport": "Your zip file looks like an old format Roon export, please re-export your Roon blog and try again.",
-                    "noContentToImport": "Zip did not include any content to import.",
-                    "invalidZipStructure": "Invalid zip file structure.",
-                    "invalidZipFileBaseDirectory": "Invalid zip file: base directory read failed",
-                    "zipContainsMultipleDataFormats": "Zip file contains multiple data formats. Please split up and import separately."
+                    "unsupportedRoonExport": "Seu arquivo zip parece um formato antigo de exportação do Roon, reexporte seu blog do Roon e tente novamente.",
+                    "noContentToImport": "O Zip não incluiu nenhum conteúdo para importar.",
+                    "invalidZipStructure": "Estrutura de arquivo zip inválida.",
+                    "invalidZipFileBaseDirectory": "Arquivo zip inválido: falha na leitura do diretório base",
+                    "zipContainsMultipleDataFormats": "O arquivo zip contém vários formatos de dados. Divida e importe separadamente."
                 },
                 "handlers": {
                     "json": {
-                        "invalidJsonFormat": "Invalid JSON format, expected `{ db: [exportedData] }`",
-                        "apiDbImportContent": "API DB import content",
-                        "checkImportJsonIsValid": "check that the import file is valid JSON.",
-                        "failedToParseImportJson": "Failed to parse the import JSON file."
+                        "invalidJsonFormat": "Formato JSON inválido, esperad `{ db: [exportedData] }`",
+                        "apiDbImportContent": "API DB importar conteúdo",
+                        "checkImportJsonIsValid": "verifique se o arquivo de importação é um JSON válido.",
+                        "failedToParseImportJson": "Falha ao analisar o arquivo JSON de importação."
                     }
                 }
             }
@@ -546,143 +546,143 @@
         "services": {
             "settings": {
                 "yaml": {
-                    "error": "Could not parse {file}: {context}.",
-                    "help": "Check your {file} file for typos and fix the named issues.",
-                    "validate": "The following definition \"{at}\" is invalid: {reason}"
+                    "error": "Não foi possível analisar  {file}: {context}.",
+                    "help": "Verifique se há erros de digitação em seu arquivo {file} e corrija os problemas identificados.",
+                    "validate": "A seguinte definição \"{at}\" é inválida: {reason}"
                 },
-                "loader": "Error trying to load YAML setting for {setting} from '{path}'.",
-                "ensureSettings": "Error trying to access settings files in {path}."
+                "loader": "Erro ao tentar carregar a configuração YAML para {setting} de '{path}'.",
+                "ensureSettings": "Erro ao tentar acessar os arquivos de configurações em {path}."
             },
             "mega": {
                 "requestFailed": {
-                    "error": "The email service was unable to send an email batch."
+                    "error": "O serviço de e-mail não conseguiu enviar um lote de e-mail."
                 }
             }
         },
         "errors": {
-            "noMessageSupplied": "no message supplied",
-            "error": "\nERROR:",
-            "warning": "\nWarning:",
-            "anErrorOccurred": "An error occurred",
-            "unknownErrorOccurred": "An unknown error occurred.",
-            "unknownError": "Unknown Error",
-            "unknownApiError": "Unknown API Error",
-            "databaseIsReadOnly": "Your database is in read only mode. Visitors can read your site, but you can't log in or add posts.",
-            "checkDatabase": "Check your database file and make sure that file owner and permissions are correct.",
-            "notEnoughPermission": "You do not have permission to perform this action",
-            "errorWhilstRenderingError": "Error whilst rendering error page",
-            "errorTemplateHasError": "Error template has an error",
-            "oopsErrorTemplateHasError": "Oops, seems there is an error in the error template.",
-            "encounteredError": "Encountered the error: ",
-            "whilstTryingToRender": "whilst trying to render an error page for the error: ",
-            "renderingErrorPage": "Rendering Error Page",
-            "caughtProcessingError": "Ghost caught a processing error in the middleware layer.",
-            "imageNotFound": "Image not found",
-            "imageNotFoundWithRef": "Image not found: {img}",
-            "cannotReadImage": "Could not read image: {img}",
-            "pageNotFound": "Page not found",
-            "resourceNotFound": "Resource not found"
+            "noMessageSupplied": "nenhuma mensagem fornecida",
+            "error": "\nERRO:",
+            "warning": "\nAviso:",
+            "anErrorOccurred": "Um erro ocorreu",
+            "unknownErrorOccurred": "Ocorreu um erro desconhecido.",
+            "unknownError": "Erro desconhecido",
+            "unknownApiError": "Erro de API desconhecido",
+            "databaseIsReadOnly": "Seu banco de dados está em modo somente leitura. Os visitantes podem ler seu site, mas você não pode fazer login ou adicionar postagens.",
+            "checkDatabase": "Verifique seu arquivo de banco de dados e certifique-se de que o proprietário e as permissões do arquivo estejam corretos.",
+            "notEnoughPermission": "Você não tem permissão para realizar esta ação",
+            "errorWhilstRenderingError": "Erro ao renderizar a página de erro",
+            "errorTemplateHasError": "O modelo de erro contém um erro",
+            "oopsErrorTemplateHasError": "Ops, parece que há um erro no modelo de erro.",
+            "encounteredError": "Encontrou o erro: ",
+            "whilstTryingToRender": "enquanto tenta renderizar uma página de erro para o erro: ",
+            "renderingErrorPage": "Página de erro de renderização",
+            "caughtProcessingError": "O Ghost detectou um erro de processamento na camada de middleware.",
+            "imageNotFound": "Imagem não encontrada",
+            "imageNotFoundWithRef": "Imagem não encontrada: {img}",
+            "cannotReadImage": "Não foi possível ler a imagem: {img}",
+            "pageNotFound": "Página não encontrada",
+            "resourceNotFound": "Recurso não encontrado"
         }
     },
     "warnings": {
         "index": {
-            "usingDirectMethodToSendEmail": "Ghost is attempting to use a direct method to send email. \nIt is recommended that you explicitly configure an email service.",
-            "unableToSendEmail": "Ghost is currently unable to send email."
+            "usingDirectMethodToSendEmail": "O Ghost está tentando usar um método direto para enviar e-mail. \nRecomenda-se que você configure explicitamente um serviço de e-mail.",
+            "unableToSendEmail": "No momento, o Ghost não consegue enviar e-mail."
         },
         "helpers": {
-            "helperNotAvailable": "The \\{\\{{helperName}\\}\\} helper is not available.",
-            "flagMustBeEnabled": "The {flagName} flag must be enabled in labs if you wish to use the \\{\\{{helperName}\\}\\} helper.",
-            "seeLink": "See {url}",
-            "mustBeCalledAsBlock": "The \\{\\{{helperName}\\}\\} helper must be called as a block. E.g.  \\{\\{#{helperName}\\}\\} \\{\\{/{helperName}\\}\\}",
+            "helperNotAvailable": "O ajudante \\{\\{{helperName}\\}\\} não está disponível.",
+            "flagMustBeEnabled": "O sinalizador  {flagName} deve ser habilitado em laboratórios se você deseja usar o auxiliar \\{\\{{helperName}\\}\\} .",
+            "seeLink": "Veja {url}",
+            "mustBeCalledAsBlock": "O auxiliar  \\{\\{{helperName}\\}\\} auxiliar deve ser chamado como um bloco. Por exemplo.  \\{\\{#{helperName}\\}\\} \\{\\{/{helperName}\\}\\}",
             "asset": {
-                "pathIsRequired": "The \\{\\{asset\\}\\} helper must be passed a path"
+                "pathIsRequired": "O auxiliar \\{\\{asset\\}\\} deve receber um caminho"
             },
             "cancel_link": {
-                "invalidData": "The \\{\\{cancel_link\\}\\} helper was used outside of a subscription context. See https://ghost.org/docs/themes/members/#cancel-links."
+                "invalidData": "O auxiliar \\{\\{cancel_link\\}\\} foi usado fora de um contexto de assinatura. Consulte https://ghost.org/docs/themes/members/#cancel-links."
             },
             "foreach": {
-                "iteratorNeeded": "Need to pass an iterator to #foreach"
+                "iteratorNeeded": "Precisa passar um iterador para #foreach"
             },
             "get": {
-                "invalidResource": "Invalid resource given to get helper"
+                "invalidResource": "Recurso inválido fornecido para obter ajudante"
             },
             "has": {
-                "invalidAttribute": "Invalid or no attribute given to has helper"
+                "invalidAttribute": "Inválido ou nenhum atributo dado ao ajudante"
             },
             "index": {
-                "missingHelper": "Missing helper: '{arg}'"
+                "missingHelper": "Auxiliar ausente: '{arg}'"
             },
             "is": {
-                "invalidAttribute": "Invalid or no attribute given to is helper"
+                "invalidAttribute": "Inválido ou nenhum atributo dado ao ajudante"
             },
             "link": {
-                "hrefIsRequired": "The \\{\\{#link\\}\\}\\{\\{/link\\}\\} helper requires an href=\"\" attribute."
+                "hrefIsRequired": "O auxiliar \\{\\{#link\\}\\}\\{\\{/link\\}\\} requer um atributo href=\"\" attribute."
             },
             "link_class": {
-                "forIsRequired": "The \\{\\{link_class\\}\\} helper requires a for=\"\" attribute."
+                "forIsRequired": "O auxiliar \\{\\{link_class\\}\\} requer um atributo for = \"\"."
             },
             "navigation": {
-                "invalidData": "navigation data is not an object or is a function",
-                "valuesMustBeDefined": "All values must be defined for label, url and current",
-                "valuesMustBeString": "Invalid value, Url and Label must be strings"
+                "invalidData": "os dados de navegação não são um objeto ou uma função",
+                "valuesMustBeDefined": "Todos os valores devem ser definidos para rótulo, url e atual",
+                "valuesMustBeString": "Valor inválido, o URL e o rótulo devem ser strings"
             },
             "page_url": {
-                "isDeprecated": "Warning: pageUrl is deprecated, please use page_url instead\nThe helper pageUrl has been replaced with page_url in Ghost 0.4.2, and will be removed entirely in Ghost 0.6\nIn your theme's pagination.hbs file, pageUrl should be renamed to page_url"
+                "isDeprecated": "Aviso: pageUrl está obsoleto, use page_url em seu lugar \nO auxiliar pageUrl foi substituído por page_url no Ghost 0.4.2 e será totalmente removido no Ghost 0.6 \n No arquivo pagination.hbs do seu tema, pageUrl deve ser renomeado para page_url"
             },
             "pagination": {
-                "invalidData": "The \\{\\{pagination\\}\\} helper was used outside of a paginated context. See https://ghost.org/docs/themes/helpers/pagination/.",
-                "valuesMustBeDefined": "All values must be defined for page, pages, limit and total",
-                "nextPrevValuesMustBeNumeric": "Invalid value, Next/Prev must be a number",
-                "valuesMustBeNumeric": "Invalid value, check page, pages, limit and total are numbers"
+                "invalidData": "O auxiliar \\ {\\ {pagination \\} \\} foi usado fora de um contexto paginado. Consulte https://ghost.org/docs/themes/helpers/pagination/.",
+                "valuesMustBeDefined": "Todos os valores devem ser definidos para página, páginas, limite e total",
+                "nextPrevValuesMustBeNumeric": "Valor inválido, Próximo / Anterior deve ser um número",
+                "valuesMustBeNumeric": "Valor inválido, página de verificação, páginas, limite e total são números"
             },
             "plural": {
-                "valuesMustBeDefined": "All values must be defined for empty, singular and plural"
+                "valuesMustBeDefined": "Todos os valores devem ser definidos para vazio, singular e plural"
             },
             "price": {
-                "attrIsRequired": "Attribute is required e.g. \\{\\{price plan.amount\\}\\}",
-                "attrMustBeNumeric": "Attribute value should be a number"
+                "attrIsRequired": "O atributo é obrigatório, por exemplo. \\{\\{price plan.amount\\}\\}",
+                "attrMustBeNumeric": "O valor do atributo deve ser um número"
             },
             "img_url": {
-                "attrIsRequired": "Attribute is required e.g. \\{\\{img_url feature_image\\}\\}",
-                "attrIsUnknown": "Attribute passed to \\{\\{img_url\\}\\} is unknown"
+                "attrIsRequired": "O atributo é obrigatório, por exemplo \\ {\\ {img_url feature_image \\} \\}",
+                "attrIsUnknown": "Atributo passado para \\ {\\ {img_url \\} \\} é desconhecido"
             },
             "template": {
-                "templateNotFound": "Template {name} not found."
+                "templateNotFound": "Modelo {nome} não encontrado."
             }
         }
     },
     "notices": {
         "index": {
-            "welcomeToGhost": "Welcome to Ghost."
+            "welcomeToGhost": "Bem-vindo ao Ghost."
         },
         "mail": {
-            "messageSent": "Message sent. Double check inbox and spam folder!"
+            "messageSent": "Mensagem enviada. Verifique a caixa de entrada e a pasta de spam!"
         },
         "api": {
             "users": {
-                "pwdChangedSuccessfully": "Password changed successfully."
+                "pwdChangedSuccessfully": "Senha alterada com sucesso."
             }
         },
         "data": {
             "fixtures": {
-                "jQueryRemoved": "jQuery has been removed from Ghost core and is now being loaded from the jQuery Foundation's CDN."
+                "jQueryRemoved": "O jQuery foi removido do Ghost core e agora está sendo carregado do CDN da jQuery Foundation."
             },
             "utils": {
                 "index": {
-                    "noSupportForDatabase": "No support for database client {client}"
+                    "noSupportForDatabase": "Sem suporte para cliente de banco de dados {cliente}"
                 }
             },
             "validation": {
                 "index": {
-                    "valueCannotBeBlank": "Value in [{tableName}.{columnKey}] cannot be blank.",
-                    "valueMustBeBoolean": "Value in [{tableName}.{columnKey}] must be one of true, false, 0 or 1.",
-                    "valueExceedsMaxLength": "Value in [{tableName}.{columnKey}] exceeds maximum length of {maxlength} characters.",
-                    "valueIsNotInteger": "Value in [{tableName}.{columnKey}] is not an integer.",
-                    "themeCannotBeActivated": "{themeName} cannot be activated because it is not currently installed.",
-                    "validationFailed": "Validation ({validationName}) failed for {key}",
-                    "schemaValidationFailed": "Validation failed for '{key}'.",
+                    "valueCannotBeBlank": "O valor em [{tableName}. {ColumnKey}] não pode ficar em branco.",
+                    "valueMustBeBoolean": "O valor em [{tableName}. {ColumnKey}] deve ser verdadeiro, falso, 0 ou 1.",
+                    "valueExceedsMaxLength": "O valor em [{tableName}. {ColumnKey}] excede o comprimento máximo de {maxlength} caracteres.",
+                    "valueIsNotInteger": "O valor em [{tableName}. {ColumnKey}] não é um número inteiro.",
+                    "themeCannotBeActivated": "{themeName} não pode ser ativado porque não está instalado no momento.",
+                    "validationFailed": "A validação ({validationName}) falhou para {key}",
+                    "schemaValidationFailed": "A validação falhou para '{key}'.",
                     "validationFailedTypes": {
-                        "isLength": "Value in [{tableName}.{key}] exceeds maximum length of {max} characters."
+                        "isLength": "O valor em [{tableName}. {Key}] excede o comprimento máximo de {max} caracteres."
                     }
                 }
             }
