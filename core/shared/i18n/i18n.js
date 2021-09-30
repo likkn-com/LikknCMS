@@ -101,7 +101,7 @@ class I18n {
     /**
      * Attempt to load strings from a file
      *
-     * @param {sting} [locale]
+     * @param {string} [locale]
      * @returns {object} strings
      */
     _loadStrings(locale) {
