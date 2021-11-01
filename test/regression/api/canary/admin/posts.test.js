@@ -180,7 +180,7 @@ describe('Posts API (canary)', function () {
                 });
         });
 
-        it('can order by email open rate', async function () {
+        it('can order by Taxa de abertura de email', async function () {
             try {
                 await testUtils.createEmailedPost({
                     postOptions: {
