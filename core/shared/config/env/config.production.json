@@ -2,10 +2,10 @@
     "database": {
         "client": "mysql",
         "connection": {
-            "host"     : "127.0.0.1",
-            "user"     : "root",
-            "password" : "",
-            "database" : "ghost"
+            "host"     : "18.229.162.195",
+            "user"     : "ghost",
+            "password" : "s3nh4d1f1c1L1m4",
+            "database" : "LikknCMS"
         }
     },
     "paths": {
@@ -17,5 +17,19 @@
             "enabled": true
         },
         "transports": ["file", "stdout"]
+    },
+    "mail":{
+        "from": "cadastro@likkn.com",
+        "transport": "SMTP",
+        "options": {
+            "host": "smtp.googlemail.com",
+            "service": "Gmail",
+            "port": 465,
+            "secure": true,
+            "auth": {
+                "user": "cadastro@likkn.com",
+                "pass": "AFuvzBux2JWCX8u"
+            }
+        }
     }
 }

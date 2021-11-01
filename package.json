@@ -22,6 +22,7 @@
   "scripts": {
     "start": "node index",
     "dev": "grunt dev",
+    "prod": "grunt prod",
     "dev:debug": "DEBUG=ghost:* grunt dev",
     "setup": "yarn install && knex-migrator init && grunt symlink && grunt init || (exit 0)",
     "main": "grunt shell:main && grunt subgrunt:init",
