@@ -14,10 +14,10 @@ COPY *.* ./
 ENV NODE_ENV production
 
 # Install LikknCMS
-RUN yarn install --pure-lockfile
+RUN npm install
 RUN knex-migrator init
 RUN cd core/client
-RUN NODE_ENV=development yarn install --pure-lockfile
+RUN NODE_ENV=development npm install
 RUN ./node_modules/ember-cli/bin/ember build -prod
 RUN cd ../..
 
