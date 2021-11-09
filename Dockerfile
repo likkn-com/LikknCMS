@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM node:14.16.1
+FROM dockerfile/nodejs
 
 WORKDIR /usr/src/app
 
