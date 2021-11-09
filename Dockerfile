@@ -15,7 +15,7 @@ ENV NODE_ENV production
 
 # Install LikknCMS
 RUN npm install
-RUN knex-migrator init
+RUN ./node_modules/knex-migrator/bin/knex-migrator init
 RUN cd core/client
 RUN NODE_ENV=development npm install
 RUN ./node_modules/ember-cli/bin/ember build -prod
