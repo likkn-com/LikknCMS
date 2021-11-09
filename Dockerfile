@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/nodejs
+FROM node:14.16.1-stretch-slim
 
 WORKDIR /usr/src/app
 
