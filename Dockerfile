@@ -9,7 +9,7 @@ FROM node:14.16.1-stretch-slim
 
 WORKDIR /usr/src/app
 
-COPY *.* ./
+COPY . .
 # Set environment variables.
 ENV NODE_ENV production
 
