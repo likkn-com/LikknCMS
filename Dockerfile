@@ -14,12 +14,7 @@ COPY *.* ./
 ENV NODE_ENV production
 
 # Install LikknCMS
-RUN npm install
-
-RUN cd core/client
-RUN NODE_ENV=development npm install
-RUN ./node_modules/ember-cli/bin/ember build -prod
-RUN cd ../..
+RUN yarn install --pure-lockfile && ./node_modules/knex-migrator/bin/knex-migrator init && cd core/client && NODE_ENV=development yarn install --pure-lockfile && ./node_modules/ember-cli/bin/ember build -prod && cd ../..
 
 # Define mountable directories.
 VOLUME ["/data"]
