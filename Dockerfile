@@ -14,7 +14,8 @@ COPY . /usr/src/app
 RUN yarn install && ./node_modules/knex-migrator/bin/knex-migrator init && cd core/client && NODE_ENV=development yarn install && ./node_modules/ember-cli/bin/ember build -prod && cd ../.. && npm install -g pm2
 
 # Define default command.
-CMD ["pm2-runtime", "index.js"]
+#CMD ["pm2-runtime", "index.js"]
+CMD [ "node", "index.js" ]
 
 # Expose ports.
 EXPOSE 2368
